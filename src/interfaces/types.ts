@@ -17,9 +17,8 @@ export interface Nota {
   id?: number;
   valor: number;
   fecha_registro?: string;
-  alumnoId: number;
-  materiaId: number;
-  // Campos extra para mostrar en tablas sin tener que re-consultar
+  alumno_id: number;    // Cambiado de alumnoId a alumno_id
+  materia_id: number;   // Cambiado de materiaId a materia_id
   nombre_alumno?: string; 
   nombre_materia?: string;
 }
