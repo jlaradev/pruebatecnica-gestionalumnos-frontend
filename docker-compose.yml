@@ -1,0 +1,6 @@
+services:
+  frontend:
+    build: .
+    container_name: prueba_frontend
+    ports:
+      - "${FRONTEND_PORT}:80"
